@@ -1,0 +1,5 @@
+- [Auth flow](auth-flow.md) — login-only (no signup screen, no OTP); direct access after credentials.
+- [Password security & admin auth](password-security.md) — bcrypt everywhere; admin uses server-issued session tokens (no hardcoded key in frontend).
+- [Admin panel](admin-panel.md) — 4-tab panel (Resumen/Retiros/Usuarios/Activos); SSE real-time; presence beacon per user.
+- [Security audit](security-audit.md) — full audit applied; helmet, rate limiting, earn cap, error scrubbing, reject uses DB amounts.
+- [Native AdMob boundary](native-admob-boundary.md) — keep the Google Mobile Ads import behind a platform-specific wrapper; the native SDK cannot bundle for web.
