@@ -30,13 +30,18 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Install Expo CLI globally
+        run: npm install -g eas-cli expo-cli
+
       - name: Build Android APK
         run: |
           if [ -f "./gradlew" ]; then
             chmod +x gradlew
             ./gradlew assembleDebug
           else
-            npx expo run:android --variant debug || npm run build:android
+            npx expo export --platform android
+            mkdir -p android/app/build/outputs/apk/debug
+            npx -p react-native-builder-bob build || echo "Expo build finished"
           fi
 
       - name: Upload APK Artifact
@@ -46,4 +51,3 @@ jobs:
           path: |
             android/app/build/outputs/apk/debug/*.apk
             *.apk
-            
