@@ -35,19 +35,14 @@ jobs:
 
       - name: Build Android APK
         run: |
-          if [ -f "./gradlew" ]; then
-            chmod +x gradlew
-            ./gradlew assembleDebug
-          else
-            npx expo export --platform android
-            mkdir -p android/app/build/outputs/apk/debug
-            npx -p react-native-builder-bob build || echo "Expo build finished"
-          fi
+          npx expo prebuild --platform android --clean
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
+          cd ..
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: app-debug-apk
-          path: |
-            android/app/build/outputs/apk/debug/*.apk
-            *.apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
