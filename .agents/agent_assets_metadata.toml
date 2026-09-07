@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "feQc9QiADHWAI0w2XiOlN"
+uri = "file://cashly-earn-checklist.pdf"
+type = "pdf"
+title = "Cashly Earn — Checklist Completo"
+description = "PDF con el estado de las 122 funciones: completadas, con errores conocidos y no implementadas."
+
+[[outputs]]
+id = "ss87YlD2uaT9VKz0VHgmb"
+uri = "file://cashly-seguridad-sesiones-usuario.pdf"
+type = "pdf"
+title = "Cashly Earn — Informe de Seguridad: Sesiones de Usuario"
+description = "Resumen completo de la vulnerabilidad corregida, endpoints modificados y flujo de autenticación implementado."
