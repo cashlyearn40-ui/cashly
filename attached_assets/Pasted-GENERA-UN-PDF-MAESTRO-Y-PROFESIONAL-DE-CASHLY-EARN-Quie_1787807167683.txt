@@ -1,0 +1,425 @@
+GENERA UN PDF MAESTRO Y PROFESIONAL DE CASHLY EARN
+
+Quiero que generes un PDF profesional, completo y bien estructurado que funcione como documento maestro, respaldo técnico y reporte del estado actual del proyecto Cashly Earn.
+
+IMPORTANTE: antes de generar el PDF, analiza cuidadosamente toda la información disponible del proyecto, el código, configuraciones, funcionalidades implementadas, pendientes, decisiones anteriores y estado actual. No inventes información y no marques como terminado algo que realmente no esté implementado.
+
+El PDF debe ser claro incluso para otra persona o agente de inteligencia artificial que nunca haya visto el proyecto y necesite comprenderlo rápidamente.
+
+1. PORTADA
+
+Incluye:
+
+- Nombre: Cashly Earn
+- Tipo de proyecto: aplicación móvil y web
+- Tecnologías principales
+- Estado actual del proyecto
+- Fecha de generación del documento
+- Versión o etapa actual, si existe
+- Una breve descripción profesional del propósito de Cashly Earn
+
+2. RESUMEN EJECUTIVO
+
+Explica de forma sencilla:
+
+- Qué es Cashly Earn.
+- Qué problema busca resolver.
+- Cómo funciona a grandes rasgos.
+- Cómo obtienen recompensas los usuarios.
+- Cómo funcionan los retiros.
+- Países soportados.
+- Idiomas y monedas.
+- Objetivo de lanzamiento.
+- Estado general actual del desarrollo.
+
+3. FUNCIONALIDADES COMPLETAMENTE IMPLEMENTADAS
+
+Haz un inventario detallado de todas las funciones que realmente estén funcionando.
+
+Para cada función indica:
+
+- Nombre.
+- Qué hace.
+- Dónde está implementada.
+- Estado: COMPLETADA / PARCIAL / PENDIENTE.
+- Dependencias importantes.
+- Observaciones.
+
+Incluye, entre otras, si están realmente implementadas:
+
+- Registro.
+- Inicio de sesión.
+- Google Sign-In.
+- Selección de país.
+- Selección de idioma.
+- Selección de moneda.
+- Panel principal.
+- Saldo.
+- Ganancias.
+- Retiros.
+- Métodos de pago.
+- Notificaciones.
+- Sistema de niveles.
+- Límites de retiro.
+- Sistema de recompensas.
+- Panel administrativo.
+- Seguridad.
+- Base de datos.
+- API REST.
+- Cualquier otra función existente en el proyecto.
+
+NO supongas que una función existe solamente porque aparece mencionada en documentación anterior. Comprueba su estado real.
+
+4. ARQUITECTURA TÉCNICA
+
+Documenta la arquitectura actual:
+
+- Expo.
+- React Native.
+- TypeScript.
+- Base de datos.
+- API REST.
+- React Query.
+- AsyncStorage.
+- Autenticación.
+- Servicios externos.
+- Variables de entorno y Secrets.
+- Configuración de Expo.
+- Estructura general del proyecto.
+- Archivos importantes.
+- Componentes importantes.
+- Servicios.
+- Endpoints.
+- Tablas de base de datos.
+- Dependencias principales.
+
+Si existen archivos particularmente importantes, explica qué función cumple cada uno.
+
+5. AUTENTICACIÓN Y SEGURIDAD
+
+Documenta detalladamente:
+
+- Registro.
+- Inicio de sesión.
+- Google Sign-In.
+- Manejo de sesiones.
+- Limpieza de caché.
+- Protección de rutas.
+- Validaciones.
+- Seguridad del servidor.
+- Protección contra fraude.
+- VPN/emuladores, si realmente está implementado.
+- Sistema de anuncios en cascada, si realmente está implementado.
+- Cualquier mecanismo de seguridad existente.
+
+También documenta errores de seguridad o configuraciones que todavía deban completarse.
+
+MUY IMPORTANTE
+
+NUNCA incluyas en el PDF:
+
+- Contraseñas.
+- API keys.
+- Tokens.
+- SESSION_SECRET.
+- Credenciales privadas.
+- Valores de Secrets de Replit.
+- Credenciales de Google.
+- Información privada que permita acceder a servicios.
+
+Si encuentras un Secret, simplemente escribe:
+
+"[CONFIGURACIÓN PRIVADA — NO MOSTRAR]"
+
+Nunca reveles su valor.
+
+6. SISTEMA ECONÓMICO
+
+Explica detalladamente el modelo económico de Cashly Earn.
+
+Incluye:
+
+- Cómo generan ingresos.
+- Cómo se distribuyen.
+- Margen del administrador.
+- Reglas de ganancias.
+- Límites.
+- Retiros.
+- Niveles.
+- Diferencias entre México y Estados Unidos.
+- Reglas para subir de nivel.
+- Relación con ingresos publicitarios.
+- Cualquier mecanismo destinado a mantener sostenible el sistema.
+
+Presenta las reglas mediante tablas cuando sea útil.
+
+7. SISTEMA DE NIVELES
+
+Documenta los 12 niveles.
+
+Para México:
+
+- Nivel 1: $20 MXN.
+- Cada nivel aumenta $5 MXN.
+
+Para Estados Unidos:
+
+- Nivel 1: $1.00 USD.
+- Cada nivel aumenta $0.25 USD.
+
+Explica también:
+
+- Cómo se avanza.
+- Qué condición debe cumplirse para subir.
+- Cómo funcionan los multiplicadores de puntos.
+- Qué cosas NO aumentan al subir de nivel.
+- Qué beneficios están implementados actualmente.
+- Qué beneficios están planeados.
+
+Si alguna regla todavía no está implementada técnicamente, márcala claramente como PENDIENTE.
+
+8. RETIROS
+
+Documenta todo el sistema de retiros:
+
+- Solicitud.
+- Monto mínimo.
+- Límites.
+- Métodos disponibles.
+- Estados posibles.
+- Administración.
+- Devolución de saldo.
+- Vencimiento.
+- Notificaciones.
+- Automatizaciones.
+
+Diferencia claramente entre:
+
+YA IMPLEMENTADO
+
+IMPLEMENTADO PARCIALMENTE
+
+PENDIENTE
+
+9. PANEL DE ADMINISTRACIÓN
+
+Haz un inventario de todo lo que existe actualmente en el panel administrativo.
+
+Para cada sección indica:
+
+- Nombre.
+- Función.
+- Estado.
+- Qué puede hacer el administrador.
+- Qué falta por implementar.
+
+No agregues funciones imaginarias.
+
+10. ERRORES Y PROBLEMAS RESUELTOS
+
+Crea una sección histórica de problemas técnicos.
+
+Para cada problema:
+
+- Problema.
+- Causa.
+- Solución aplicada.
+- Estado actual.
+- Riesgo de que vuelva a ocurrir.
+
+Incluye problemas como:
+
+- redirect_uri_mismatch.
+- Persistencia de datos entre cuentas.
+- Problemas de caché.
+- Problemas de orientación.
+- Problemas de fuentes.
+- Cualquier otro error real encontrado durante el desarrollo.
+
+11. ESTADO REAL DEL PROYECTO
+
+Esta debe ser una de las secciones más importantes.
+
+Crea tres categorías:
+
+COMPLETADO
+
+Todo lo que realmente funciona.
+
+EN DESARROLLO
+
+Todo lo que ya comenzó pero todavía no está terminado.
+
+PENDIENTE
+
+Todo lo que todavía debe construirse.
+
+Para cada elemento proporciona una explicación breve.
+
+12. PRIORIDADES
+
+Ordena absolutamente todo lo pendiente según prioridad.
+
+Utiliza:
+
+🔴 PRIORIDAD CRÍTICA
+
+Cosas que deben resolverse antes de producción.
+
+🟠 PRIORIDAD ALTA
+
+Cosas importantes para completar antes del lanzamiento.
+
+🟡 PRIORIDAD MEDIA
+
+Mejoras importantes pero que no bloquean el lanzamiento.
+
+🟢 PRIORIDAD BAJA
+
+Mejoras futuras o de comodidad.
+
+Explica POR QUÉ cada elemento tiene esa prioridad.
+
+13. PLAN DE DESARROLLO
+
+Construye un roadmap realista dividido en etapas:
+
+ETAPA 1 — Finalización del núcleo
+
+Qué debe terminarse primero.
+
+ETAPA 2 — Panel administrativo
+
+Qué debe completarse.
+
+ETAPA 3 — Recompensas
+
+Qué debe implementarse.
+
+ETAPA 4 — Seguridad y estabilidad
+
+Qué debe revisarse.
+
+ETAPA 5 — Producción
+
+SHA-1, EAS, configuraciones y preparación del lanzamiento.
+
+ETAPA 6 — Pruebas
+
+Pruebas funcionales, seguridad, rendimiento, orientación, cuentas, retiros y casos extremos.
+
+ETAPA 7 — Lanzamiento
+
+Preparación final para producción.
+
+No inventes fechas exactas si no están definidas.
+
+14. IDEAS Y FUNCIONES FUTURAS
+
+Crea una sección separada para ideas que todavía NO forman parte de la versión actual.
+
+Por ejemplo:
+
+- Sistema de referidos.
+- Estadísticas.
+- Misiones diarias.
+- Logros.
+- Más métodos de retiro.
+- Suscripción VIP.
+- Mejoras de seguridad.
+- Nuevas funciones de recompensas.
+
+Marca claramente estas funciones como:
+
+IDEA FUTURA — NO IMPLEMENTADA
+
+No las presentes como funciones existentes.
+
+15. RIESGOS DEL PROYECTO
+
+Identifica los principales riesgos técnicos y de negocio.
+
+Por ejemplo:
+
+- Fraude.
+- Usuarios abusando del sistema.
+- Costos publicitarios.
+- Sostenibilidad de los retiros.
+- Seguridad.
+- Escalabilidad.
+- Dependencia de servicios externos.
+- Errores de autenticación.
+- Protección de datos.
+- Problemas de producción.
+
+Para cada riesgo indica:
+
+- Nivel de riesgo.
+- Motivo.
+- Medida preventiva.
+- Estado actual.
+
+16. CHECKLIST FINAL PARA PRODUCCIÓN
+
+Crea una lista de verificación con todos los puntos que deben cumplirse antes del lanzamiento.
+
+Incluye:
+
+- Código.
+- Base de datos.
+- API.
+- Seguridad.
+- Autenticación.
+- Retiros.
+- Notificaciones.
+- Panel administrativo.
+- EAS.
+- SHA-1.
+- Variables de entorno.
+- Pruebas.
+- Rendimiento.
+- Compatibilidad móvil.
+- Orientación vertical/horizontal.
+- Idiomas.
+- México.
+- Estados Unidos.
+- Protección contra fraude.
+- Recuperación ante errores.
+- Preparación de producción.
+
+17. RESUMEN FINAL PARA OTRA IA
+
+Al final del PDF crea una sección llamada:
+
+"CONTEXTO PARA CONTINUAR EL DESARROLLO"
+
+Debe contener una explicación compacta pero completa de:
+
+- Qué es Cashly Earn.
+- Qué está terminado.
+- Qué está en desarrollo.
+- Qué falta.
+- Qué debe hacerse primero.
+- Qué decisiones NO deben modificarse.
+- Qué reglas deben respetarse.
+- Qué problemas ya fueron solucionados.
+- Qué cosas no deben volver a romperse.
+
+Esta sección debe permitir que otro agente de IA pueda comprender el proyecto rápidamente sin tener que analizar toda la documentación desde cero.
+
+REGLAS ABSOLUTAS
+
+1. NO inventes funcionalidades.
+2. NO marques como completado algo que no esté realmente implementado.
+3. Distingue siempre entre implementado, parcial, pendiente e idea futura.
+4. NO expongas ningún Secret, contraseña, token, API key o credencial.
+5. NO modifiques código para crear este documento.
+6. NO elimines ni alteres ninguna configuración.
+7. El PDF debe ser únicamente documentación.
+8. Si existe información contradictoria, utiliza el estado real comprobable del proyecto y señala la contradicción.
+9. Mantén todo organizado y profesional.
+10. Usa tablas, títulos y listas cuando mejoren la comprensión.
+11. Incluye una fecha de generación del documento.
+12. Al terminar, proporciona el PDF generado y confirma brevemente que el documento fue creado correctamente.
+
+El objetivo es que este PDF sea el respaldo maestro de Cashly Earn, útil para mí, para futuros desarrolladores y para cualquier agente de inteligencia artificial que tenga que continuar el proyecto.
