@@ -14,7 +14,8 @@
     "icon": "./assets/images/ce-logo.png",
     "scheme": "cashly",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
+    "jsEngine": "jsc",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -22,10 +23,12 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.cashly"
+      "bundleIdentifier": "com.cashly",
+      "jsEngine": "jsc"
     },
     "android": {
       "package": "com.cashly",
+      "jsEngine": "jsc",
       "adaptiveIcon": {
         "backgroundColor": "#0a1628",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -55,7 +58,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": false
     },
     "extra": {
       "router": {
