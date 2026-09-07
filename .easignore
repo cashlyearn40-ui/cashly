@@ -1,0 +1,19 @@
+# Dependencies are installed by EAS from yarn.lock.
+node_modules/
+
+# Local caches and workspace-only tooling.
+.cache/
+.local/
+.agents/
+.expo/
+
+# Uploaded prompts and local attachments are not app source.
+attached_assets/
+
+# Local logs and environment files.
+*.log
+.env
+.env.*
+
+# Repository metadata.
+.git/
